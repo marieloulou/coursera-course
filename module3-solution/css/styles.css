@@ -2,7 +2,16 @@
 
 .row{
 	
-	width: 100%;
-	background-colour: red;
+	margin-bottom : 15px;
 
+
+
+}
+
+
+.row > div {
+
+	border : 2px solid red;
+	background-color: gray;
+	height: 1000px;
 }

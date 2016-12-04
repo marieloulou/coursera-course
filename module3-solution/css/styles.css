@@ -1,8 +1,11 @@
 
 
-.row{
+.row { 
 	
 	margin-bottom : 15px;
+	height: 100px;
+
+
 }
 
 
@@ -10,5 +13,4 @@
 
 	border : 2px solid red;
 	background-color: gray;
-	height: 1000px;
 }

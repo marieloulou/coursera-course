@@ -19,29 +19,29 @@
 	
 
 }
-.section{
+.section {
  
- margin:10px;
+ margin: 10px;
  
  
  border: 1px solid gray;
  background-color: gray;
  
- padding:1%;
- border-top:5px;
+ padding: 1%;
+ border-top: 5px;
 
 }
-.navbar-brand h1{
+.navbar-brand h1 {
 
 
 	position:relative;
-	bottom:30px;
-    left:5px;
-	font-color:black;
-	font-weight:bold;
-	height:1px;
-	margin-bottom:20px; 
-	margin-top:20px;
+	bottom: 30px;
+    left: 1px;
+	color: black;
+	font-weight: bold;
+	height: 1px;
+	margin-bottom: 20px; 
+	margin-top: 20px;
 
 
 	
@@ -62,7 +62,7 @@ h2 {
 
 
 
-.plateOne{
+.plate {
 
 	font-weight: bold;
 	font-size: 18px;
@@ -76,7 +76,7 @@ h2 {
 
 
 
-#collapsable-nav{
+#collapsable-nav {
 	margin-top: 1px;
 }
 

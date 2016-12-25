@@ -105,11 +105,11 @@ function buildAndShowHomeHTML (categories) {
 // 
         function chooseRandomCategory (categories) { 
         
-             // var randomArrayIndex = Math.floor(Math.random() * categories.length);
+             var randomArrayIndex = Math.floor(Math.random() * categories.length);
             
             
 
-             return var chosenCategoryShortName = categories[var randomArrayIndex]; 
+             return var chosenCategoryShortName = new Categories[randomArrayIndex]; 
 
 }
          

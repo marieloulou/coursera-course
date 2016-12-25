@@ -103,13 +103,13 @@ function buildAndShowHomeHTML (categories) {
       // variable's name implies it expects.
       // var chosenCategoryShortName = ....
 // 
-        // function chooseRandomCategory (categories) { 
+        function chooseRandomCategory (categories) { 
         
              // var randomArrayIndex = Math.floor(Math.random() * categories.length);
             
             
 
-             // return var chosenCategoryShortName = categories[randomArrayIndex]; 
+             return var chosenCategoryShortName = categories[var randomArrayIndex]; 
 
 }
          
@@ -131,7 +131,7 @@ function buildAndShowHomeHTML (categories) {
       // Use the existing insertHtml function for that purpose. Look through this code for an example
       // of how to do that.
       // ....
-       // insertHtml("#main-content", homeHtmlToInsertIntoMainPage);
+       insertHtml("#main-content", homeHtmlToInsertIntoMainPage);
     },
     false); // False here because we are getting just regular HTML from the server, so no need to process JSON.
 }

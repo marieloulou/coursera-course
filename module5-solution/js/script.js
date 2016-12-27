@@ -106,7 +106,7 @@ function buildAndShowHomeHTML (categories) {
         
         
         var chosenCategoryShortName =
-            chooseRandomCategory(categories).short_name;
+            chooseRandomCategory(categories);
 
 
       

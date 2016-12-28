@@ -83,7 +83,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 showLoading("#main-content");
 $ajaxUtils.sendGetRequest(
   allCategoriesUrl,
-  buildAndShowHomeHTML, // ***** <---- TODO: STEP 1: Substitute [...] ******
+  buildAndShowHomeHTML), // ***** <---- TODO: STEP 1: Substitute [...] ******
   true; // Explicitely setting the flag to get JSON from server processed into an object literal
 });
 // *** finish ***
@@ -106,7 +106,7 @@ function buildAndShowHomeHTML (categories) {
         
         
         var chosenCategoryShortName =
-            chooseRandomCategory(categories);
+            chooseRandomCategory(categories).short_name;
 
 
       
@@ -124,16 +124,19 @@ function buildAndShowHomeHTML (categories) {
       // 
        
 
+       
+      
+       var homeHtml = insertProperty(homeHtml, "randomCategoryShortName", "'" + chosenCategoryShortName + "'");
+    
+
 
       
-       var html = insertProperty(html, "randomCategoryShortName", chosenCategoryShortName.short_name);
-
-
+       
       // TODO: STEP 4: Insert the the produced HTML in STEP 3 into the main page
       // Use the existing insertHtml function for that purpose. Look through this code for an example
       // of how to do that.
       // ....
-       insertHtml("#main-content", html);
+       insertHtml("#main-content", homeHtml);
     },
     false); // False here because we are getting just regular HTML from the server, so no need to process JSON.
 }
